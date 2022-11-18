@@ -1,0 +1,178 @@
+.cart-section{
+    margin-top: 165px;
+    width: 100%;
+    padding: 20px 10vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.product-list{
+    width: 70%;
+}
+
+.section-heading{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Segoe UI',  sans-serif;
+}
+
+.empty-img{
+    width:500px;
+    height:400px;
+    display: block;
+    margin: auto;
+}
+
+.cart-container{
+    width: 100%;
+    padding:20px;
+    border-radius: 10px;
+    border: 2px solid rgb(98, 98, 98);
+    margin-bottom: 60px;
+    font-family: 'Segoe UI',  sans-serif; 
+}
+
+.sm-product{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cart-container, .sm-product:last-child{
+    margin-bottom: 0;
+}
+
+.sm-product-img{
+    height: 80px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.sm-text{
+    width: 50%;
+}
+
+.sm-product-name{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.sm-des{
+    font-size: 18px;
+    opacity: 0.5;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    color: white;
+}
+
+.item-counter{
+    width: 90px;
+    height: 30px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.counter-btn, .item-count{
+    width: 30px;
+    height: 30px;
+}
+
+.counter-btn{
+    background:rgb(99, 99, 99);
+    border: 1px solid rgb(22, 22, 22);
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+}
+
+.item-count{
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.sm-price{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.sm-delete-btn{
+    position: absolute;
+    top: 5px;
+    left: 75px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.sm-img{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.ckeckout-section{
+    width: 30%;
+}
+
+.checkout-box{
+    width: 100%;
+    height: 250px;
+    border-radius: 2px;
+    border: 2px solid rgb(98, 98, 98);
+    padding: 20px;
+    background: rgb(84, 84, 84);
+}
+
+.text{
+    text-transform: capitalize;
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI',  sans-serif; 
+}
+
+.checkout-btn{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    background: black;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.bill{
+    font-size: 60px;
+    font-weight: 500;
+    margin: 10px;
+    margin: 10px 0;
+}

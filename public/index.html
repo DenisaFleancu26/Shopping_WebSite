@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Sneakerssss - Home Page</title>
+    <link rel="stylesheet" href="../css/home.css">
+
+</head>
+<body background="../images/background.jpg">  
+
+<!-- bara de navigare -->
+    <nav class="navbar"> 
+        <div class="nav"> <!-- logo, searchbox, butonul de search, user, manager si cos de cumparaturi -->
+            <img src="../images/logo.png" class="brand-logo" alt="Logo-ul brandului Sneakerssss">
+            <div class="nav-items">
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="search a product">
+                    <button class="search-button">search</button>
+                </div>
+                <div class="cart">
+                    <img src="../images/cart.png" class="cart-item" alt="">
+                   
+                </div>
+                <div class="user">
+                    <img src="../images/user.png" class="user-item" alt="">
+                    <div class="user-login">
+                        <p>Login to your account!</p>
+                        <a>Login</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- categorii (home,women,men,kids)-->
+        <section class="categories">
+            <div class="categorie-container">
+                <div class="product-categ">
+                    <img src="../images/home.png" class="categorie-img" alt="">
+                    <p class="categorie-name">➠</p> 
+                </div>
+                <div class="product-categ">
+                    <img src="../images/women.png" class="categorie-img" alt="">
+                    <p class="categorie-name">➠</p> 
+                </div>
+                <div class="product-categ">
+                    <img src="../images/men.png" class="categorie-img" alt="">
+                    <p class="categorie-name">➠</p> 
+                </div>
+                <div class="product-categ">
+                    <img src="../images/kids.png" class="categorie-img" alt="">
+                    <p class="categorie-name">➠</p> 
+                </div>
+            </div>
+        </section>
+    </nav>
+
+        <div class="shoes">
+            <img src="../images/shoes1.png" onclick="location.href = '/product/nike-13246'" class="img1" alt="">
+            <img src="../images/shoes2.png" onclick="location.href = '/product/jordan-43272'" class="img1" alt="">
+            <img src="../images/shoes3.png" onclick="location.href = '/product/jordan-33766'" class="img1" alt="">
+        </div>
+
+        
+    
+
+
+
+<!-- link pentru a nu copia tot nav-ul pe fiecare pagina -->
+    <script src="../js/nav.js"></script> 
+</body>
+</html>

@@ -1,0 +1,27 @@
+@import 'nav.css';
+
+.shoes{
+    width:90%;
+    height:100%;
+    display:flex;
+    margin-top: 180px;
+    margin-left: 120px;
+}
+.img1{
+    width: 30%;
+    height:30%;
+    cursor: pointer;
+}
+.img2{
+    
+    width: 30%;
+    height:30%;
+    cursor: pointer;
+}
+
+.img3{
+    padding: 30px;
+    width: 30%;
+    height:30%;
+    cursor: pointer;
+}

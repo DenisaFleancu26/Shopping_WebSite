@@ -1,0 +1,52 @@
+.place-order-btn{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    background: black;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.textt, .heading{
+    text-transform: capitalize;
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI',  sans-serif; 
+}
+
+body{
+    padding-top: 150px;
+}
+
+.form{
+    width: 100%;
+    padding: 30px 10vw;
+    color: black;
+}
+ 
+.text{
+    opacity: .5;
+}
+
+.form input{
+    margin: 7px 0;
+    color: black;
+}
+
+.three-input-container{
+    display: flex;
+    gap: 20px;
+}
+
+.cart-section, .product-list, .checkout-section{
+    margin-top: -165px;
+}
+
