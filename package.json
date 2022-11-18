@@ -1,23 +1,23 @@
 {
-  "name": "website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
   "scripts": {
-    "test": "nodemon server.js"
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
   },
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
   "dependencies": {
-    "aws-sdk": "^2.1233.0",
-    "bcrypt": "^5.1.0",
-    "dotenv": "^16.0.3",
-    "express.js": "^1.0.0",
-    "firebase": "^9.11.0",
-    "nodemailer": "^6.8.0",
-    "nodemon": "^2.0.20",
-    "npm": "^8.19.2",
-    "stripe": "^10.15.0"
-  }
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
 }
